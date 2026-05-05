@@ -1,0 +1,25 @@
+.faculty-card{
+  background:rgb(192, 237, 94);
+  padding:30px;
+  text-align:left;
+  border-radius:10px;
+  transition: all 0.3s ease;
+}
+.faculty-card img{
+  width:100%;
+  height: 500px;;
+  object-fit:cover;
+  border-radius:4px;
+}
+.faculty-card h3{
+  margin-top:10px;
+  font-size:18px;
+}
+.faculty-card p{
+  color:gray;
+  font-size:14px;
+}
+.faculty-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
