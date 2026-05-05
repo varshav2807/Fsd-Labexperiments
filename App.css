@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: blue;
+    color: white;
+    padding: 15px;
+}
+
+.links a {
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 30px;
+    text-align: center;
+}
+
+.post {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.form input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
